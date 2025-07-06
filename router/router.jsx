@@ -8,13 +8,13 @@ import CheckoutPage from "../pages/books/checkoutPage";
 import SingleBook from "../pages/books/singleBook";
 import PrivateRoute from "./privateRoute";
 import OrderPage from "../pages/books/orderPage";
-import AdminRoutes from "./adminRoutes";
 import AdminLogin from "../component/adminLogin";
 import DashboardLayout from "../pages/dashboard/dashboardLayout";
 import Dashboard from "../pages/dashboard/dashboard";
 import ManageBook from "../pages/dashboard/manageBooks/manageBook";
 import AddBook from "../pages/dashboard/addBook/addBook";
 import UpdateBook from "../pages/dashboard/EditBook/EditBook";
+import AdminRoutes from "./adminRoutes";
 
 const router = createBrowserRouter([
   {
